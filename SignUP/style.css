@@ -67,6 +67,7 @@ form input{
 form button{
     display: inherit;
     width: 38%;
+    outline:none;
     border-radius: 31px;
     height: 4.4em;
     margin: auto;
