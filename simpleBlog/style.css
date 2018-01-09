@@ -1,0 +1,73 @@
+.mainWrapper{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.titleWrapper{
+    padding: 1% 11% 3%;
+    background-color:  #9acd32;
+}
+.titleWrapper h1{
+    color:#adff2f;
+    font-size: 36px;
+    margin-top: 3.7%;
+}
+.titleWrapper h1 i{
+    margin-right: 1.4%;
+}
+.titleWrapper p{
+    color: #adff2f;
+    margin-top: -1%;
+}
+.titleWrapper button{
+    width: 7.5em;
+    height: 29px;
+    border:transparent;
+    margin-bottom: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.titleWrapper button:hover{
+    background-color: #f8f9f6;
+}
+.bodyWrapper{
+    padding-right: 11%;
+    padding-left: 11%;
+}
+.bodyWrapper h1{
+font-size: 2em;
+margin-top: 1.5em;
+}
+.bodyWrapper h1 span{
+    margin-left: 0.5em;
+    font-size: 0.65em;
+    color: grey;
+    font-weight: normal;
+}   
+.bodyWrapper p{
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+}
+.wrapperDiv{
+    display: flex;
+}
+.wrapperDiv div img{
+    width: 91%;
+    height: 65%;
+    border-radius: 6px;
+}
+.wrapperDiv div h1{
+    margin-top: 5%;
+    color: rgb(83, 138, 240);
+    font-size: 23px;
+    font-weight: 600;
+}
+.wrapperDiv div p{
+    margin-bottom: 3em;
+    font-size: 14px;
+}
