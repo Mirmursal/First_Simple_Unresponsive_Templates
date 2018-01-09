@@ -1,0 +1,94 @@
+.mainWrapper{
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 750px;
+    padding: 1% 10%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    font-family: 'Open Sans', sans-serif;
+}
+.mainWrapper .logoAndNav{
+
+}
+.mainWrapper .logoAndNav  h2{
+    float: left;
+    font-size: 34px;
+    margin-top: 0%;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.mainWrapper .logoAndNav h2 i{
+margin-right: 7px;
+}
+.mainWrapper .logoAndNav ul{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    width: 57%;
+    font-size: 14.5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.mainWrapper .logoAndNav ul li{
+    margin-right: 4%;
+}
+.mainWrapper .logoAndNav ul li a:hover{
+    background-color: aliceblue;;
+    color:black;
+}
+.mainWrapper .logoAndNav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all ease 0.3s;
+}
+.mainWrapper .logoAndNav ul li a i{
+    margin-left: 4px;
+}
+.mainWrapper .bodyWrapper{
+    margin-top: 12%;
+}
+.bodyWrapper h3{
+    color:white;
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 15%;
+}
+.bodyWrapper h1{
+    color: white;
+    font-size: 3.8em;
+    font-weight: bolder;
+    margin-top: -3%;
+}
+.bodyWrapper .firstBtn{
+    font-size: 22px;
+    padding: 14px;
+    cursor: pointer;
+    color: grey;
+    border:transparent;
+}
+.bodyWrapper .firstBtn:hover{
+    background-color: grey;
+    color:white;
+    transition: all ease 0.3s;
+}
+.bodyWrapper .secondBtn{
+    background-color: #1fb76e;
+    color: white;
+    font-size: 22px;
+    padding: 14px;
+    cursor: pointer;
+    border:transparent;
+    margin-left: 3px;
+}
+.bodyWrapper .secondBtn:hover{
+    color:#1fb76e;
+    background-color: white;
+    transition: all ease 0.3s;
+}
